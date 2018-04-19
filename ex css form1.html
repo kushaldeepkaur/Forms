@@ -1,0 +1,253 @@
+    <!doctype html>
+<html>
+<head>
+    <style>
+        div{
+            background-color: red;
+        }
+.form{
+    width:650px;
+    padding:30px;
+    margin:40px auto;
+    background: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form .inner{
+    padding: 30px;
+    background: #F8F8F8;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+.form h1{
+    background: #2A88AD;
+    padding: 20px 30px 15px 30px;
+    margin: -30px -30px 30px -30px;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px , serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #257C9E;
+}
+.form label {
+    display: block;
+    font: 13px Arial black , sans-serif;
+    color: #37617a;
+    margin-bottom: 15px;
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border: 2px solid #fff;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form .inner .section{
+    font: normal 20px verdana, serif;
+    color: #2A88AD;
+    margin-bottom: 5px;
+    background: #f8f8f8;
+}
+.form .inner .section span {
+    display: block;
+    background: #2A88AD;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 4px solid #fff;
+    font-size: 14px;
+    margin-left: -45px;
+    color: #fff;
+    margin-top: -3px;
+}
+.form input[type="button"],
+.form input[type="submit"],
+.form input[type="reset"]{
+    background: #2A88AD;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font: normal 30px 'Bitter', serif;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+    border: 1px solid #257C9E;
+    font-size: 15px;
+}
+.form input[type="button"]:hover,
+.form input[type="submit"]:hover,
+.form input[type="reset"]:hover{
+    cursor: pointer;
+    background: #2A6881;
+    -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+        .form-style-10 input[type="radio"]:hover{cursor: pointer;}
+
+</style>
+<title>
+REGISTRATION FORM
+</title>
+</head>
+<body>
+	<form>
+    <div>
+	<div class="form">
+        <h1>Stage 1</h1>
+        <div class="inner">
+        <div class="section"><span>1</span>Child details</div>
+        <br>
+        <label for=" NAME :"> </label> <input type="text" name="name" placeholder="Enter your name" required>
+		<br><br>
+        <label> DATE OF BIRTH(DOB) : </label><input type="text" name="dob" required>
+		<br><br>
+        <label> ANY IDENTIFICATION MARK : </label><input type="text" name="aim" required>
+		<br><br>
+        <label> GENDER :</label>
+		<input type="radio" name="gender" value="male" >Male
+		<input type="radio" name="gender" value="female" >Female
+		<input type="radio" name="gender" value="others" >Others
+		<br><br>
+        <label>HEIGHT : </label><input type="text" name="height" placeholder="Enter child's present height here..." required>
+        <br><br>
+        <label>WEIGHT : </label><input type="text" name="weight" placeholder="Enter child's present weight here..." required>
+        <br><br>
+        <label>BIRTH HOSPITAL NAME : </label><input type="text" name="bhn" required>
+        <br><br>
+        <label> ANY PHYSICAL DISABILITY :</label> <input type="radio" name="physical disability" value="yes">YES
+		<TEXTAREA rows="3" cols="30" name="mention" placeholder="Mention here..."></TEXTAREA>
+		<br>
+		<input type="radio" name="physical disability" value="no" >NO
+		<br><br>
+		<label> ANY DISEASE :</label> <input type="radio" name="disease" value="yes">YES
+		<TEXTAREA rows="3" cols="30" name="mention" placeholder="Mention here..."></TEXTAREA>
+		<br>
+		<input type="radio" name="disease" value="no">NO
+		<br><br>
+        <label>SCHOOL NAME FOR ADMISSION : </label><input type="text" name="school" required>
+        <br><br>
+        <label>SCHOOL ADDRESS : </label><input type="text" name="school address" required>
+        <br><br>
+        </div>
+            <div class="inner">
+        <div class="section"><span>2</span>Parents details</div>
+		<label> FATHER'S NAME :</label> <input type="text" name="father's name" required>
+        <br><br>
+        <label> DATE OF BIRTH(DOB) : </label><input type="text" name="dob" required>
+		<br><br>
+		<label> OCCUPATION :</label> <input type="text" name="occupation" required>
+		<br><br>
+        <label> EDUCATION :</label> <input type="text" name="education" required>
+		<br><br>
+		<label> FATHER'S ANNUAL INCOME :</label> <input type="text" name="f annual income" required>
+		<br><br>
+		<label> MOTHER'S NAME :</label> <input type="text" name="name" required>
+        <br><br>
+        <label> DATE OF BIRTH(DOB) : </label><input type="text" name="dob" required>
+		<br><br>
+		<label> OCCUPATION :</label> <input type="text" name="occupation" required>
+		<br><br>
+        <label> EDUCATION :</label> <input type="text" name="education" required>
+		<br><br>
+		<label> MOTHER'S ANNUAL INCOME :</label> <input type="text" name="m annual income" required>
+		<br><br>
+        <label> PAYS INCOME TAX :</label>
+						<input type="radio" name="income tax" value="yes">Yes
+						<input type="radio" name="income tax" value="no">No
+		<br><br>
+        </div>
+        <div class="inner">
+        <div class="section"><span>3</span>Personal details</div>
+		<label> RELIGION :</label>
+		<select name="dropdown">
+			<option value="select">select</option>
+			<option value="hindu">Hindu</option>
+			<option value="sikh">Sikh</option>
+			<option value="muslim">Muslim</option>
+			<option value="christian">Christian</option>
+			<option value="others">Others</option>
+		</select>
+		<br><br>
+        <label> CATEGORY :</label>
+		<input type="radio" name="category" value="General" >General<br>
+		<input type="radio" name="category" value="OBC" >Other Backward Classes(OBC)<br>
+		<input type="radio" name="catogory" value="SC" >Scheduled Caste(SC)<br>
+        <input type="radio" name="catogory" value="SC" >Scheduled Tribe(ST)
+		<br><br>
+		<label> PHONE NUMBER :</label> <input type="text" name="phone number" placeholder="Enter valid phone number" required>
+		<br><br>
+		<label> E-MAIL ADDRESS :</label> <input type="text" name="e-mail" placeholder="Enter valid e-mail" required>
+		<br><br>
+		<label> RESIDENTIAL ADDRESS :</label> <input type="text" name="residential address" placeholder="Enter your permanent address" required>
+		<br><br>
+		<label> LOCAL ADDRESS :</label> <input type="text" name="local address" placeholder="Enter your temporary address" >
+		<br><br>
+        </div>
+        <div class="inner">
+        <div class="section"><span>4</span>Other details of parents</div>
+        <br>
+		<label> ANY PHYSICAL DISABILITY :</label> <input type="radio" name="physical disability" value="yes">YES
+		<TEXTAREA rows="3" cols="30" name="mention" placeholder="Mention here..."></TEXTAREA>
+		<br>
+		<input type="radio" name="physical disability" value="no" >NO
+		<br><br><br>
+		<label> ANY DISEASE :</label> <input type="radio" name="disease" value="yes">YES
+		<TEXTAREA rows="3" cols="30" name="mention" placeholder="Mention here..."></TEXTAREA>
+		<br>
+		<input type="radio" name="disease" value="no">NO
+		<br><br><br>
+		<label> ANY CRIMINAL RECORD :</label>
+		<input type="radio" name="criminal record" value="yes">YES
+		<TEXTAREA rows="3" cols="30" name="mention" placeholder="Mention here..."></TEXTAREA>
+		<br>
+		<input type="radio" name="criminal record" value="no">NO
+		<br><br>
+        </div>
+        <label> UPLOAD YOUR LATEST IMAGE :</label><input type="file" name="fileupload" required>
+		<br><br>
+		<input type="checkbox" name="terms" value="t" required>I agree upon terms and conditions
+		<br><br>
+		<input type="SUBMIT" name="Submit" value="Submit" >
+		<input type="RESET" name="Reset" value="Reset">
+		<br><br>
+
+        </div>
+	</div>
+	</form>
+
+</body>
+</html>
